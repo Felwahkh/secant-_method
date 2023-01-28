@@ -14,6 +14,7 @@ namespace ConsoleApp5
             {
                 //  equation
                            
+                           
                 float f = (float)Math.Pow(x, 3) + 3 * (float)Math.Pow(x, 2) - 1;
                 return f;
             }
@@ -25,6 +26,7 @@ namespace ConsoleApp5
 
 
                     // calculate 
+                    
    
                     p2 = (p1 - (f(p1) * (p1 - p0)) / (f(p1) - f(p0)));
                     Console.WriteLine(" p{0} = {1}",i,p2);
